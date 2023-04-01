@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "302505284268",
+    "firebase_url": "https://lbas-college-app-default-rtdb.firebaseio.com",
+    "project_id": "lbas-college-app",
+    "storage_bucket": "lbas-college-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302505284268:android:0792fe3a9681bbb7524509",
+        "android_client_info": {
+          "package_name": "com.lbas.collegestudentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302505284268-4d4m9vporj117r7759jk7mv366cd9all.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1yCGeY54o7HLUptabtzQMXQ_VtMDAJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302505284268-4d4m9vporj117r7759jk7mv366cd9all.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302505284268:android:b5ae5d5b210828e0524509",
+        "android_client_info": {
+          "package_name": "com.lbas.lbascollegeadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302505284268-4d4m9vporj117r7759jk7mv366cd9all.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1yCGeY54o7HLUptabtzQMXQ_VtMDAJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302505284268-4d4m9vporj117r7759jk7mv366cd9all.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

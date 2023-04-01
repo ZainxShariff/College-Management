@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDF5"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/slider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_title"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:layout_marginTop="36dp"
+                android:textStyle="bold"
+                android:textColor="@color/titleColor"
+                android:textSize="@dimen/title_size"
+                android:fontFamily="@font/latobold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_height="wrap_content"
+                android:text="@string/home_description"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:textSize="@dimen/text_size2"
+                android:layout_marginVertical="22dp"
+                android:fontFamily="@font/latoregular"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#F1DAC4">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="26dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Courses Available"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center"
+
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/title_size"
+                        android:fontFamily="@font/latobold"/>
+
+                    <com.google.android.material.card.MaterialCardView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_height="wrap_content"
+                                android:text="Bachelor of Computer Applications (B.C.A.)"
+                                android:textColor="@color/textColor"
+                                android:textAlignment="textStart"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size2"
+                                android:fontFamily="@font/latoregular"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/grey1"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_height="wrap_content"
+                                android:text="Bachelor of Science (B.Sc.)"
+                                android:textColor="@color/textColor"
+                                android:textAlignment="textStart"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size2"
+                                android:fontFamily="@font/latoregular"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/grey1"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_height="wrap_content"
+                                android:text="Bachelor of Arts : (B.A.)"
+                                android:textColor="@color/textColor"
+                                android:textAlignment="textStart"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size2"
+                                android:fontFamily="@font/latoregular"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/grey1"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_height="wrap_content"
+                                android:text="Bachelor of Commerce (B.Com.)"
+                                android:textColor="@color/textColor"
+                                android:textAlignment="textStart"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size2"
+                                android:fontFamily="@font/latoregular"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/grey1"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_height="wrap_content"
+                                android:text="Admissions Disclosure: "
+                                android:textColor="@color/textColor"
+                                android:textAlignment="textStart"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size2"
+                                android:fontFamily="@font/latobold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_height="wrap_content"
+                                android:text="A four year honors degree can be made as per the new national education policy. Degree will be awarded if the first year degree and the third year are met. It is not mandatory to pursue a fourth year degree. A fourth year honors degree is a direct course of education, while a second year diploma can be followed by a final year postgraduate degree."
+                                android:textColor="@color/textColor"
+                                android:textAlignment="textStart"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size2"
+                                android:fontFamily="@font/latoregular"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/grey1"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_height="wrap_content"
+                                android:text="ಪ್ರವೇಶಾತಿ ಪ್ರಕಟಣೆ:"
+                                android:textColor="@color/textColor"
+                                android:textAlignment="textStart"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size2"
+                                android:fontFamily="@font/latobold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_height="wrap_content"
+                                android:text="ನೂತನ ರಾಷ್ಟ್ರೀಯ ಶಿಕ್ಷಣ ನೀತಿಯಂತೆ ನಾಲ್ಕು ವರ್ಷದ ಆನರ್ಸ್ ಪದವಿಯನ್ನು ಮಾಡಬಹುದಾಗಿದೆ. ಮೊದಲ ವರ್ಷದ ಪದವಿ ಮತ್ತು ಮೂರನೇ ವರ್ಷವನ್ನು ಪೂರೈಸಿದರೆ ಪದವಿಯನ್ನು ನೀಡಲಾಗುವುದು. ನಾಲ್ಕನೇ ವರ್ಷದ ಪದವಿಯನ್ನು ಮುಂದುವರೆಸುವುದು ಕಡ್ಡಾಯವಾಗಿರುವುದಿಲ್ಲ. ನಾಲ್ಕನೇ ವರ್ಷದ ಆನರ್ಸ್ ಪದವಿ ಪೂರೈಸಿದರೆ ನೇರವಾಗಿ  ಶಿಕ್ಷಣ ಪೂರೈಸಿದರೆ ಸರ್ಟಿಫಿಕೇಟ್, ಎರಡನೇ ವರ್ಷದ ಪದವಿ ಶಿಕ್ಷಣ ಪೂರೈಸಿದರೆ ಡಿಪ್ಲೊಮೊ  ಅಂತಿಮ ವರ್ಷದ ಸ್ನಾತಕೋತ್ತರ ಪದವಿಗೆ (Post  Graduation) ಸೇರಬಹುದಾಗಿರುತ್ತದೆ."
+                                android:textColor="@color/textColor"
+                                android:textAlignment="textStart"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size2"
+                                android:fontFamily="@font/latoregular"
+                                android:layout_marginBottom="10dp"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Details"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:layout_marginTop="36dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/titleColor"
+                    android:textSize="@dimen/title_size"
+                    android:fontFamily="@font/latobold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="Lal Bahadur Arts, Science &amp; S.B.Solabanna Shetty Commerce College"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textSize="@dimen/text_size2"
+                    android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="Jog Road, Sagar – 577401"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textSize="@dimen/text_size2"
+                    android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile : 7338464187"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textSize="@dimen/text_size2"
+                    android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="Fax : 08183-226137"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textSize="@dimen/text_size2"
+                    android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="Email : lbsbscollegesagar@gmail.com"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textSize="@dimen/text_size2"
+                    android:fontFamily="@font/latoregular"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:id="@+id/map"
+                    android:src="@drawable/lb_map"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

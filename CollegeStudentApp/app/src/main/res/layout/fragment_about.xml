@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:id="@+id/collegeImg"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/latobold"
+                android:layout_marginBottom="10dp"
+                android:text="History"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_height="wrap_content"
+                android:text="@string/history1"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/text_size2"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="@string/history2"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/text_size2"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="@string/history3"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/text_size2"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="@string/history4"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/text_size2"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textAlignment="textStart"
+                    android:fontFamily="@font/latobold"
+                    android:layout_marginBottom="10dp"
+                    android:text="Our Motto"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="@string/motto1"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/text_size2"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_height="wrap_content"
+                    android:text="@string/motto2"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/text_size2"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/latoregular"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textAlignment="textStart"
+                    android:fontFamily="@font/latobold"
+                    android:layout_marginBottom="10dp"
+                    android:text="Our Vision"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:text="1. To provide quality education to the students of Malnad area and prepare them to face the challenges of 21st century."
+            android:textAlignment="textStart"
+            android:textSize="@dimen/text_size2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latoregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:text="2. To become a beacon of knowledge to the surrounding society and contribute to the overall development of the Malnad region and also try to retain its unique culture, ecosystem,flora and fauna etc."
+            android:textAlignment="textStart"
+            android:textSize="@dimen/text_size2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latoregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:text="3.To try to achieve excellence and contribute our mite to translate dream of New National Education Policy-2020 4. To increase talent pool.computer Literacy and enhance higher education standards and information technology penetration."
+            android:textAlignment="textStart"
+            android:textSize="@dimen/text_size2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latoregular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/latobold"
+            android:layout_marginBottom="10dp"
+            android:text="Profile of the college"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:text="Sagar is situated in the heart of Mainad area. To provide higher education to the students of this region, the college was started in 1964 by philanthropists of the region, led by eminent persons like Sr. KH. Srinivasa, Late Sri K.G Wodeyar, Sri K.V. Subbanna. The foundation stone of the college was laid by Sri Lal Bahadur Shastry, the then Prime minister of India M. Gopalakrishna Adiga, the great Kannada Poet, was the founder Principal."
+            android:textAlignment="textStart"
+            android:textSize="@dimen/text_size2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latoregular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/latobold"
+            android:layout_marginBottom="10dp"
+            android:text="Location"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:text="The college is located in a sprawling campus of about 52 acres 3kms away from the town. Besides classrooms and well-established laboratory, we have library housed in a separate 4 storied building an outdoor and indoor stadium. The colege has a canteen facility. A well furnished auditorium is available for extra curricular activities. The college also runs two hostels one each for our boys and girls students."
+            android:textAlignment="textStart"
+            android:textSize="@dimen/text_size2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latoregular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/latobold"
+            android:layout_marginBottom="10dp"
+            android:text="Academic Achievements"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:text="In keeping with the goal of the founders of the college, admission is not denied to any student who has minimum qualification. In spite of such an open policy of admission the college consistently gets results of around 90% every year with nearly 60% getting first class.Most of our alumni are now well placed and are serving in different parts of India and abroad. Our students have participated in various Science, Management, Humanities and Literary seminars and competition and won prizes and awards. Our students have published books of Literary value."
+            android:textAlignment="textStart"
+            android:textSize="@dimen/text_size2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latoregular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/latobold"
+            android:layout_marginBottom="10dp"
+            android:text="Teachers"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:text="The college has a band of devoted and dedicated teachers. There are Eight Ph.D holders and six M.Phils. A good number of teachers have many publications to their credit Our teachers organise as well as participate in many seminars, workshops, taculty development programmes, webinars, short-term courses, webferences etc. UGC and ICSSR has sanctioned several major and minor research projects to the teachers of our college."
+            android:textAlignment="textStart"
+            android:textSize="@dimen/text_size2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latoregular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/latobold"
+            android:layout_marginBottom="10dp"
+            android:text="Co-Curricular &amp; Extracurricular Activities"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:text=" A unique feature of our college is the emphasis given co-curricular and extra-curricular activities. Each department has a study forum attached to it through which seminars, lectures quiz programmes are held through out the year. Eminent resource persons are invited from outside to deliver special lectures. Through such interactions, we hope to expose the students to the concept of learning beyond the classroom. We have a unit of N.C.C.and two units of N.S.S. There is a student forum comprising of student representatives, which organises many co-curricular activities.We conduct a course in art appreciation 'Samskurti Anusandhana' every year in which students are exposed to various art forms like literature, music.dance.drama,ms and plastic arts, we also have Film Club, Red Cross Unit, women's grievance redressel cell Student Counseling Center and Placement cell. Traditional day is celebrated every year to exhibit the traditional of Indian culture society."
+            android:textAlignment="textStart"
+            android:textSize="@dimen/text_size2"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latoregular"/>
+
+
+        <!--Contact us -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/text_margin"
+            android:background="#BCBCBC"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Details"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:layout_marginTop="36dp"
+                android:textStyle="bold"
+                android:textColor="@color/titleColor"
+                android:textSize="@dimen/title_size"
+                android:fontFamily="@font/latobold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_height="wrap_content"
+                android:text="Lal Bahadur Arts, Science &amp; S.B.Solabanna Shetty Commerce College"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:textSize="@dimen/text_size2"
+                android:fontFamily="@font/latoregular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_height="wrap_content"
+                android:text="Jog Road, Sagar – 577401"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:textSize="@dimen/text_size2"
+                android:fontFamily="@font/latoregular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_height="wrap_content"
+                android:text="Mobile : 7338464187"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:textSize="@dimen/text_size2"
+                android:fontFamily="@font/latoregular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_height="wrap_content"
+                android:text="Fax : 08183-226137"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:textSize="@dimen/text_size2"
+                android:fontFamily="@font/latoregular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_height="wrap_content"
+                android:text="Email : lbsbscollegesagar@gmail.com"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:textSize="@dimen/text_size2"
+                android:fontFamily="@font/latoregular"
+                android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
